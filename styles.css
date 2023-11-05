@@ -152,7 +152,7 @@ body {
 /* test*/
 
 /* Styles for screens 375px and lower (mobile) */
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   .main-container {
     display: block;
     max-width: 65rem;
