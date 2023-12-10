@@ -66,14 +66,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  margin: 0 24rem;
-  max-width: 65rem;
+  max-width: 45rem;
   box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
 .container {
-  padding: 4rem;
+  padding: 2rem;
 }
 
 /* 1 container */
@@ -107,12 +106,13 @@ body {
   background-color: var(--Cyan);
   border-radius: 0 0 0 5px;
 }
+
 .container-2 h1::after {
   content: " per month";
   font-size: 0.8rem;
   vertical-align: middle;
   padding-left: 0.5rem;
-  opacity: 0.5; /* add to color: property opacity*/
+  opacity: 0.5;
 }
 
 #button {
@@ -123,7 +123,7 @@ body {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  white-space: nowrap; /* prevents word sign to be above word up*/
+  white-space: nowrap;
   cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ body {
 /* test*/
 
 /* Styles for screens 375px and lower (mobile) */
-@media (max-width: 375px) {
+@media (max-width: 806px) {
   .main-container {
     display: block;
     max-width: 65rem;
